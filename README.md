@@ -2,6 +2,7 @@
 ### Overview
 This Jupyter notebook tackles the task of heart disease classification using popular machine learning models. We'll walk through data prep, model building, and evaluating key classifiers – RandomForest, KNN, and Logistic Regression. To enhance performance, we'll fine-tune these models with RandomizedSearchCV and GridSearchCV. Plus, we'll uncover crucial features in our dataset.
 
+### Steps:
 1) Problem Definition:
 Predict the likelihood of heart disease using machine learning models based on essential health indicators
 
@@ -9,10 +10,10 @@ Predict the likelihood of heart disease using machine learning models based on e
 Collect the data from various sources as this is a personal project we could use a open source dataset for heart disease. (https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset).
 
 3) Evaluation:
-If we are able to get a accuracy of more than 95% we can further pursue the model and make it better.
+Achieving an accuracy rate exceeding 95% is a crucial milestone, warranting further refinement and enhancement of the model.
 
 4) Features:
-These are all the features on which we are going to identify if our patient has any heart disease or not.
+The following features serve as the basis for discerning the presence or absence of heart disease in our patients.
 * age
 * sex
 * chest pain type (4 values)
